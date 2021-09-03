@@ -1,0 +1,17 @@
+.pagination .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination__page {
+  border: 2px solid rgb(94, 91, 91);
+  padding: 4px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.pagination__page.selected {
+  background: rgb(94, 93, 93);
+  color: white;
+}

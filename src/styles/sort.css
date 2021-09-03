@@ -1,0 +1,38 @@
+.sort {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  height: 4rem;
+}
+
+.sort .container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sort__select,
+.sort__input,
+.sort__btn {
+  font-size: 1rem;
+  outline: none;
+  width: 200px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.sort__select *,
+.sort__input,
+.sort__btn {
+  padding: 5px 10px;
+  border: none;
+}
+
+.sort__btn:hover {
+  background-color: rgb(179, 179, 179);
+  cursor: pointer;
+}
