@@ -1,4 +1,4 @@
-export default [
+const data = [
   { id: 1, date: "2021-09-20", title: "Lorem", amount: 2, distance: 1 },
   { id: 2, date: "2021-04-02", title: "ipsum", amount: 3, distance: 2 },
   { id: 4, date: "2021-06-03", title: "dolor", amount: 4, distance: 3 },
@@ -140,3 +140,5 @@ export default [
     distance: 5,
   },
 ]
+
+export default data

@@ -58,10 +58,10 @@ const AppProvider = ({ children }) => {
     if (nameOption === "Название") {
       setData(initialDate.filter((item) => item.title.includes(input)))
     }
-    if (nameOption == "Количество") {
+    if (nameOption === "Количество") {
       filterAmountDistance("amount", coditionOption, input)
     }
-    if (nameOption == "Расстояние") {
+    if (nameOption === "Расстояние") {
       filterAmountDistance("distance", coditionOption, input)
     }
   }

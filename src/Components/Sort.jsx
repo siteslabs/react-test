@@ -22,7 +22,7 @@ const Sort = () => {
   // Условие Сортировки
   const condition = (sign) =>
     (sortOptions.nameOption === "Название" && sign.sign !== "Содержить") ||
-    (sortOptions.nameOption !== "Название" && sign.sign == "Содержить")
+    (sortOptions.nameOption !== "Название" && sign.sign === "Содержить")
 
   // OPTION CONTENTS
   const headerOptionContent = headerData.map(

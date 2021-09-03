@@ -38,18 +38,6 @@ const Table = () => {
           <Noresults />
         )}
         {data.length > 20 && <Pagination />}
-        <h3>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
-          maiores illo cumque. Reprehenderit, reiciendis. Inventore corporis
-          ipsam similique saepe obcaecati maxime corrupti iure eos, pariatur
-          unde porro reiciendis cupiditate in, ipsa modi distinctio magni
-          voluptas sequi eaque tempore iusto harum, possimus vero. Consectetur,
-          sequi perspiciatis eligendi vitae consequatur sed asperiores
-          cupiditate voluptatibus reprehenderit incidunt esse corporis dolor
-          quidem labore similique aut, non culpa praesentium dicta odio! Totam
-          iste optio quisquam ut voluptatum numquam itaque animi aspernatur, ex
-          nostrum inventore magnam.
-        </h3>
       </div>
     </div>
   )
